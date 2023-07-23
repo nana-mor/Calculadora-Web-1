@@ -3,6 +3,7 @@
     --color-texto-botones: #1b2a21;
     --color-texto-pantalla: #bcbcbc;
     --color-boton: #bcbcbc;
+    --color-boton-operador: #b6501dd2;
     --color-boton-activo: #006f54;
     --color-calculadora: #00916E;
     --color-pantalla: #363636;
@@ -45,6 +46,10 @@ button{
     border:none;
     background-color: var(--color-calculadora);
     box-shadow: 5px 5px 10px -3px #00000040, -5px -5px 15px 3px #00ffc11f;
+}
+
+.operador{
+    background-color: var(--color-boton-operador);
 }
 
 button:active{
